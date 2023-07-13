@@ -1,0 +1,138 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Ajax</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table id="employeesTable" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年資</th>
+                <th>薪水</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<div id="homework1"c lass="card" style="width: 18rem;">
+    <div class="card-header">
+        Section
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"></li>
+    </ul>
+</div>
+
+@section Scripts{
+    <script src=""></script>
+    <script src="~/js/Travel.js"></script>
+    <script>
+        $('h1').text("Hello Section!!")
+
+        const emps = [{ "name": "Tom", "workYears": 3, "salary": 35000 },
+        { "name": "Jack", "workYears": 5, "salary": 40000 },
+        { "name": "Mary", "workYears": 7, "salary": 45000 }];
+
+
+        //for (let i = 0, max = emps.length; i < max; i++) {
+        //    console.log(emps[i].name)
+        //    console.log(emps[i].workYears)
+        //    console.log(emps[i].salary)
+        //}
+
+        const emp = {
+            "employees": [
+                { "name": "Tom", "workYears": 3, "salary": 35000 },
+                { "name": "Jack", "workYears": 5, "salary": 40000 },
+                { "name": "Mary", "workYears": 7, "salary": 45000 }
+            ]
+        };
+
+        //emp.employees.forEach( theEmp => {
+        //    const{name, workYears, salary} = theEmp;
+        //    console.log(name)
+        //    console.log(workYears)
+        //    console.log(salary)
+        //})
+
+        //emp.employees.forEach((theEmp, idx, datas)=>{
+        //    console.log(theEmp)
+        //    console.log(idx)
+        //    console.log(datas)
+        //})
+
+        //for(let i = 0, max = emp.employees.length; i < max; i++) {
+        //    const{name, workYears, salary} = emp.employees[i] //解構賦值
+        //console.log(name)
+        //console.log(workYears)
+        //console.log(salary)
+        //}
+
+        //for (let i = 0, max = emp.employees.length; i < max; i++) {
+        //    console.log(emp.employees[i].name)
+        //    console.log(emp.employees[i].workYears)
+        //    console.log(emp.employees[i].salary)
+        //}
+
+        //for (let i = 0, max = emp.employees. i < max; i++) {
+        //    console.log(emps[i].name)
+        //    console.log(emps[i].workYears)
+        //    console.log(emps[i].salary)
+        //}
+
+        const datas = emp.employees.map(theEmp =>{
+            const{name, workYears, salary} = theEmp;
+            return(
+                `<tr>
+                 <td>${name}</td>
+                 <td>${workYears}</td>
+                 <td>${salary}</td>
+                 </tr>
+                `
+            )
+        })
+        document.querySelector('#employeesTable>tbody').innerHTML = datas.join("");
+
+        const items = ["a","b","c"];
+        //console.log(items.join("--")); //a--b--c abc
+
+        console.log(spots);
+
+        const homework = spots.CommonFormat.Section.map(theSpots =>{
+            const{RowNumber, REF_WP, CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate}=theSpots;
+            return(
+                `<ul>
+                <li>${RowNumber}</li>
+                <li>${REF_WP}</li>
+                <li>${CAT1}</li>
+                <li>${CAT2}</li>
+                <li>${SERIAL_NO}</li>
+                <li>${MEMO_TIME}</li>
+                <li>${stitle}</li>
+                <li>${xbody}</li>
+                <li>${avBegin}</li>
+                <li>${avEnd}</li>
+                <li>${idpt}</li>
+                <li>${address}</li>
+                <li>${xpostDate}</li>
+                </ul>
+                `
+            )
+
+        })
+        document.querySelector('#homework1>ul').innerHTML = homework.join("-----------------------------------------");
+
+    </script>
+}
+
+@section Styles{
+    <style>
+        h1 {
+            background-color: lightgreen
+        }
+    </style>
+}
