@@ -17,14 +17,17 @@
         </tbody>
     </table>
 </div>
-
-<div id="homework1"c lass="card" style="width: 18rem;">
-    <div class="card-header">
-        Section
+<div class="container">
+    <div class="row row-cols-4">
+    <div id="homework1" class="card" style="width: 18rem;">
+        <div class="card-header">
+            Section
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"></li>
+        </ul>
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item"></li>
-    </ul>
+    </div>
 </div>
 
 @section Scripts{
@@ -84,42 +87,47 @@
         //    console.log(emps[i].salary)
         //}
 
-        const datas = emp.employees.map(theEmp =>{
-            const{name, workYears, salary} = theEmp;
-            return(
+        const datas = emp.employees.map(theEmp => {
+            const { name, workYears, salary } = theEmp;
+            return (
                 `<tr>
-                 <td>${name}</td>
-                 <td>${workYears}</td>
-                 <td>${salary}</td>
-                 </tr>
-                `
+                                 <td>${name}</td>
+                                 <td>${workYears}</td>
+                                 <td>${salary}</td>
+                                 </tr>
+                                `
             )
         })
         document.querySelector('#employeesTable>tbody').innerHTML = datas.join("");
 
-        const items = ["a","b","c"];
+        const items = ["a", "b", "c"];
         //console.log(items.join("--")); //a--b--c abc
 
         console.log(spots);
 
-        const homework = spots.CommonFormat.Section.map(theSpots =>{
-            const{RowNumber, REF_WP, CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate}=theSpots;
-            return(
-                `<ul>
-                <li>${RowNumber}</li>
-                <li>${REF_WP}</li>
-                <li>${CAT1}</li>
-                <li>${CAT2}</li>
-                <li>${SERIAL_NO}</li>
-                <li>${MEMO_TIME}</li>
-                <li>${stitle}</li>
-                <li>${xbody}</li>
-                <li>${avBegin}</li>
-                <li>${avEnd}</li>
-                <li>${idpt}</li>
-                <li>${address}</li>
-                <li>${xpostDate}</li>
-                </ul>
+        const homework = spots.CommonFormat.Section.map(theSpots => {
+            const { RowNumber, REF_WP, CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate } = theSpots;
+            return (
+                `
+                <div class="card-header">
+                    Section
+                </div>
+                
+                <ul>
+                    <li>${RowNumber}</li>
+                    <li>${REF_WP}</li>
+                    <li>${CAT1}</li>
+                    <li>${CAT2}</li>
+                    <li>${SERIAL_NO}</li>
+                    <li>${MEMO_TIME}</li>
+                    <li>${stitle}</li>
+                    <li>${xbody}</li>
+                    <li>${avBegin}</li>
+                    <li>${avEnd}</li>
+                    <li>${idpt}</li>
+                    <li>${address}</li>
+                    <li>${xpostDate}</li>
+                 </ul>
                 `
             )
 
