@@ -18,15 +18,7 @@
     </table>
 </div>
 <div class="container">
-    <div class="row row-cols-4">
-    <div id="homework1" class="card" style="width: 18rem;">
-        <div class="card-header">
-            Section
-        </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"></li>
-        </ul>
-    </div>
+    <div id="homework1" class=" row row-cols-4 ">  
     </div>
 </div>
 
@@ -91,49 +83,61 @@
             const { name, workYears, salary } = theEmp;
             return (
                 `<tr>
-                                 <td>${name}</td>
-                                 <td>${workYears}</td>
-                                 <td>${salary}</td>
-                                 </tr>
-                                `
+                 <td>${name}</td>
+                 <td>${workYears}</td>
+                 <td>${salary}</td>
+                 </tr>
+                 `
             )
         })
-        document.querySelector('#employeesTable>tbody').innerHTML = datas.join("");
+        //document.querySelector('#employeesTable>tbody').innerHTML = datas.join("");
+
+        $("tbody").append(datas.join(""));
 
         const items = ["a", "b", "c"];
         //console.log(items.join("--")); //a--b--c abc
 
-        console.log(spots);
+        //console.log(spots);
 
         const homework = spots.CommonFormat.Section.map(theSpots => {
-            const { RowNumber, REF_WP, CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate } = theSpots;
+            const { CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate, file } = theSpots;
+            console.log(theSpots)
+
+            let imgName="";
+            if(file.img.length>0)
+            {
+                imgName=file.img[0].text;
+            }
+            else
+            {
+                imgName=file.img.text;
+            }
             return (
                 `
                 <div class="card-header">
-                    Section
-                </div>
+                    ${stitle}
+                    <img src="${imgName}" class="card-img-top alt="..."></img>
+                
                 
                 <ul>
-                    <li>${RowNumber}</li>
-                    <li>${REF_WP}</li>
                     <li>${CAT1}</li>
                     <li>${CAT2}</li>
                     <li>${SERIAL_NO}</li>
                     <li>${MEMO_TIME}</li>
-                    <li>${stitle}</li>
-                    <li>${xbody}</li>
+                    <li>${xbody.substring(0,99)}</li>
                     <li>${avBegin}</li>
                     <li>${avEnd}</li>
                     <li>${idpt}</li>
                     <li>${address}</li>
                     <li>${xpostDate}</li>
                  </ul>
+
+                 </div>
                 `
             )
 
         })
-        document.querySelector('#homework1>ul').innerHTML = homework.join("-----------------------------------------");
-
+        document.querySelector('#homework1').innerHTML = homework.join("");
     </script>
 }
 

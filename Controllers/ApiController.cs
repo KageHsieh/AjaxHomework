@@ -19,23 +19,30 @@ namespace Msit147Site.Controllers
 
         public IActionResult Cities()
         {
-            var cities = _context.Address.Select(c => c.City).Distinct();
+            var cities = _context.Addresses.Select(c => c.City).Distinct();
 
             return Json(cities);
         }
 
-        public IActionResult Districts(string city) 
-        { 
-            var districts = _context.Address.Where(a=>a.City == city).Select(a=>a.SiteId).Distinct();
+        public IActionResult Districts(string city)
+        {
+            var districts = _context.Addresses.Where(a => a.City == city).Select(a => a.SiteId).Distinct();
 
             return Json(districts);
         }
 
         public IActionResult Roads(string district)
         {
-            var roads = _context.Address.Where(a => a.SiteId == district).Select(a => a.Road).Distinct();
+            var roads = _context.Addresses.Where(a => a.SiteId == district).Select(a => a.Road).Distinct();
 
             return Json(roads);
+        }
+
+        public IActionResult CheckAccount(string email)
+        {
+            var checkAccount = _context.Members.FirstOrDefault(x => x.Email == email);
+
+            return Json(checkAccount);
         }
     }
 }

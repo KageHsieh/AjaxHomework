@@ -28,6 +28,11 @@ namespace Msit147Site.Controllers
             return View();
         }
 
+        public IActionResult CheckAccount()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
