@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C6LQboCGHZasJKH3d37vR9jcoSgCvqLIpz7OoiFwWxo=",
+  "Hash": "xLteIjYzFVZPByeHu1L+Pg61N3b9yhxnHYukzlm9hpM=",
   "Source": "Msit147Site",
   "BasePath": "_content/Msit147Site",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\1475.gif"
+    },
+    {
+      "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\images\\24ARATON1-superJumbo.jpg",
+      "SourceId": "Msit147Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\",
+      "BasePath": "_content/Msit147Site",
+      "RelativePath": "images/24ARATON1-superJumbo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\24ARATON1-superJumbo.jpg"
     },
     {
       "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\js\\site.js",
@@ -1103,6 +1120,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\uploads\\24ARATON1-superJumbo.jpg",
+      "SourceId": "Msit147Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\",
+      "BasePath": "_content/Msit147Site",
+      "RelativePath": "uploads/24ARATON1-superJumbo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\24ARATON1-superJumbo.jpg"
+    },
+    {
+      "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\uploads\\draymond-green-domantas-sabonis.jpg",
+      "SourceId": "Msit147Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\",
+      "BasePath": "_content/Msit147Site",
+      "RelativePath": "uploads/draymond-green-domantas-sabonis.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\draymond-green-domantas-sabonis.jpg"
     }
   ]
 }

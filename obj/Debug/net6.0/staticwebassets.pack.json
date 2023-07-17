@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\1475.gif"
     },
     {
+      "Id": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\images\\24ARATON1-superJumbo.jpg",
+      "PackagePath": "staticwebassets\\images\\24ARATON1-superJumbo.jpg"
+    },
+    {
       "Id": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\js\\Travel.js",
       "PackagePath": "staticwebassets\\js\\Travel.js"
     },
@@ -251,6 +255,14 @@
     {
       "Id": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\uploads\\24ARATON1-superJumbo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\24ARATON1-superJumbo.jpg"
+    },
+    {
+      "Id": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\uploads\\draymond-green-domantas-sabonis.jpg",
+      "PackagePath": "staticwebassets\\uploads\\draymond-green-domantas-sabonis.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Msit147Site.Microsoft.AspNetCore.StaticWebAssets.props",

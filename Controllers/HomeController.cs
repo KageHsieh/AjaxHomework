@@ -29,6 +29,10 @@ namespace Msit147Site.Controllers
             return View();
         }
 
+        public IActionResult Register()
+        {
+            return View();
+        }
         public IActionResult Address() 
         {
             return View();
@@ -56,6 +60,11 @@ namespace Msit147Site.Controllers
         }
 
         public IActionResult HomeWork4()
+        {
+            return View();
+        }
+
+        public IActionResult Fetch() 
         {
             return View();
         }
