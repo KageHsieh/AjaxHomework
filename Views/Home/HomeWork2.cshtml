@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <div id="homework2" class=" row row-cols-4 ">
+    </div>
+</div>
+
+@section Scripts{
+    <script src=""></script>
+    <script src="~/js/Travel.js"></script>
+    <script>
+        
+        const homework = spots.CommonFormat.Section.map(theSpots => {
+            const { CAT1, CAT2, SERIAL_NO, MEMO_TIME, stitle, xbody, avBegin, avEnd, idpt, address, xpostDate, file } = theSpots;
+            console.log(theSpots)
+
+            let imgName = "";
+            if (file.img.length > 0) {
+                imgName = file.img[0].text;
+            }
+            else {
+                imgName = file.img.text;
+            }
+            return (
+                `
+                <div class="card-header">
+                ${stitle}
+                <img src="${imgName}" class="card-img-top alt="..."></img>
+
+                <ul>
+                <li>${CAT1}</li>
+                <li>${CAT2}</li>
+                <li>${SERIAL_NO}</li>
+                <li>${MEMO_TIME}</li>
+                <li>${xbody.substring(0, 99)}</li>
+                <li>${avBegin}</li>
+                <li>${avEnd}</li>
+                <li>${idpt}</li>
+                <li>${address}</li>
+                <li>${xpostDate}</li>
+                </ul>
+
+                </div>
+                `
+            )
+
+        })
+        document.querySelector('#homework2').innerHTML = homework.join("");
+    </script>
+}
+
+@section Styles{
+    <style>
+        h1 {
+            background-color: lightgreen
+        }
+    </style>
+}

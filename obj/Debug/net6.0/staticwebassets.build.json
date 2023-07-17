@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9flY2v1BZ1hBK/4qIfDDP8X8s4nOO2Ywkac8qExrTmw=",
+  "Hash": "C6LQboCGHZasJKH3d37vR9jcoSgCvqLIpz7OoiFwWxo=",
   "Source": "Msit147Site",
   "BasePath": "_content/Msit147Site",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\images\\1475.gif",
+      "SourceId": "Msit147Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\",
+      "BasePath": "_content/Msit147Site",
+      "RelativePath": "images/1475.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1475.gif"
     },
     {
       "Identity": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\wwwroot\\js\\site.js",

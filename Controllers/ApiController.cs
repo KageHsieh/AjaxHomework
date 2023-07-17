@@ -17,12 +17,23 @@ namespace Msit147Site.Controllers
             //return Content("<h2>Hello World!!</h2>", "text/html");
         }
 
+        public IActionResult AjaxEvent(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                name = "Guest";
+            }
+            System.Threading.Thread.Sleep(5000);
+            return Content("Hello " + name);
+        }
+
         public IActionResult Cities()
         {
             var cities = _context.Addresses.Select(c => c.City).Distinct();
 
             return Json(cities);
         }
+
 
         public IActionResult Districts(string city)
         {

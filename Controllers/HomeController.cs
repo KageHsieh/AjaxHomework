@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Msit147Site.Models;
 using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Msit147Site.Controllers
 {
@@ -23,12 +24,38 @@ namespace Msit147Site.Controllers
             return View();
         }
 
+        public IActionResult AjaxEvent()
+        {
+            return View();
+        }
+
         public IActionResult Address() 
         {
             return View();
         }
 
         public IActionResult CheckAccount()
+        {
+            return View();
+        }
+
+        public IActionResult HomeWork1()
+        {
+            return View();
+        }
+
+
+        public IActionResult HomeWork2()
+        {
+            return View();
+        }
+
+        public IActionResult HomeWork3()
+        {
+            return View();
+        }
+
+        public IActionResult HomeWork4()
         {
             return View();
         }

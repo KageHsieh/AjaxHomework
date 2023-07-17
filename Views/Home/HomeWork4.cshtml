@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Address";
+}
+
+<h1>Address</h1>
+<select id="selectCity">
+    <option value="01">縣市</option>
+</select>
+<select id="selectSite">
+    <option value="02">鄉鎮市</option>
+</select>
+<select id="selectRoad">
+    <option value="03">路名</option>
+</select>
+
+@section Scripts{
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', '/api/cities');
+        xhr.send();
+        xhr.addEventListener('load', () => {
+            const datas = JSON.parse(xhr.responseText);
+            var cities = datas.map(city => {
+                return (`<option value="${city}">${city}</option>`)
+            })
+            document.querySelector('#selectCity').innerHTML = cities.join("");
+        })
+    </script>
+
+
+    <script>
+        //先找到要控制的對象
+        const cbx = document.querySelector('#selectCity');
+        //在甚麼的行為下
+        cbx.addEventListener('change', () => {
+            //要做甚麼事=>透過XMLHttpRequest物件對伺服器發出要求(Request)以及接受伺服器回應(Response)的資料
+
+            //第一步 建立Ajaxs物件
+            const xhr1 = new XMLHttpRequest();
+            //第二步 對伺服器發出要求
+            console.log(cbx.value)
+            xhr1.open('GET', `/api/Districts?city=${cbx.value}`);//大小寫都ok
+            xhr1.send();
+
+            //第三步 接受伺服器回應(Response)的資料
+            //load事件表示伺服器已經回應資料了
+            xhr1.addEventListener('load', () => {
+                //接收資料
+                const datas = JSON.parse(xhr1.responseText);
+                const areas = datas.map(site_id => {
+                    return (`<option value="${site_id}">${site_id}</option>`)
+                })
+                document.querySelector('#selectSite').innerHTML = areas.join("");
+                console.log(xhr1);
+            })
+
+        })
+    </script>
+    <script>
+        //先找到要控制的對象
+        const cbx2 = document.querySelector('#selectSite');
+        //在甚麼的行為下
+        cbx2.addEventListener('change', () => {
+            //要做甚麼事=>透過XMLHttpRequest物件對伺服器發出要求(Request)以及接受伺服器回應(Response)的資料
+
+            //第一步 建立Ajaxs物件
+            const xhr2 = new XMLHttpRequest();
+            //第二步 對伺服器發出要求
+            xhr2.open('GET', `/api/Roads?district=${cbx2.value}`);//大小寫都ok
+            xhr2.send();
+
+            //第三步 接受伺服器回應(Response)的資料
+            //load事件表示伺服器已經回應資料了
+            xhr2.addEventListener('load', () => {
+                //接收資料
+                const datas2 = JSON.parse(xhr2.responseText);
+                const roads = datas2.map(road => {
+                    return (`<option value="${road}">${road}</option>`)
+                })
+                document.querySelector('#selectRoad').innerHTML = roads.join("");
+            })
+
+        })
+    </script>
+}
+
+@section Styles{
+
+}
