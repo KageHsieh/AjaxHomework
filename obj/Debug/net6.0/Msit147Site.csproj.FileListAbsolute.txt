@@ -268,7 +268,6 @@ C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.IdentityModel.L
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -547,3 +546,22 @@ F:\ALL THINGS\ISPanTeam\AjaxHomework\bin\Debug\net6.0\System.Memory.Data.dll
 F:\ALL THINGS\ISPanTeam\AjaxHomework\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 F:\ALL THINGS\ISPanTeam\AjaxHomework\bin\Debug\net6.0\System.Text.Json.dll
 F:\ALL THINGS\ISPanTeam\AjaxHomework\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Azure.Core.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Azure.Identity.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.CodeDom.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\System.Text.Json.dll
+C:\Ajax\Msit147Site-main\AjaxHomework\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
