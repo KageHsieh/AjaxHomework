@@ -64,6 +64,16 @@ namespace Msit147Site.Controllers
             return View();
         }
 
+        public IActionResult HomeWork5()
+        {
+            return View();
+        }
+
+        public IActionResult HomeWork6()
+        {
+            return View();
+        }
+
         public IActionResult Fetch() 
         {
             return View();
