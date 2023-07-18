@@ -28,7 +28,15 @@
             $('#divAlert').text("LOAD")
         })
         $('#buttonAjax').click(function () {
-            $('#divAlert').text("AJAX")
+            $.ajax({
+                url: '@Url.Content("/api/districts")',
+                type: 'Get', //POST
+                data: {"city": "宜蘭縣"},
+                dataType: 'json'
+            }).done(data=>{
+                console.log(data);
+            })
+            //$('#divAlert').text("AJAX")
         })
         $('#buttonCors').click(function () {
             $('#divAlert').text("CORs")

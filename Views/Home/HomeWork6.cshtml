@@ -45,7 +45,7 @@
         //}
 
         async function LoadCities() {
-            const response = await fetch("/api/cities");
+            const response = await fetch('@Url.Content("~/api/cities")');
             const datas = await response.json();
             const cities = datas.map(city => {
                 return (`<option value="${city}">${city}</option>`)
@@ -55,7 +55,7 @@
         }
 
         async function LoadDistricts() {
-            const response = await fetch(`/api/districts?city=${selCity.value}`);
+            const response = await fetch(`@Url.Content("/api/districts?city=")${selCity.value}`);
             const datas = await response.json();
             const districts = datas.map(district => {
                 return (`<option value="${district}">${district}</option>`)
@@ -65,7 +65,7 @@
         }
 
         async function LoadRoads() {
-            const response = await fetch(`/api/roads?district=${selDistrict.value}`);
+            const response = await fetch(`@Url.Content("/api/roads?district=")${selDistrict.value}`);
             const datas = await response.json();
             console.log(datas)
             const roads = datas.map(road => {

@@ -25,12 +25,14 @@
             </div>
             <div class="mb-3">
                 <label for="formFile" class="form-label">選擇檔案</label>
-                <input class="form-control" type="file" id="formFile" name="Photo">
+                <input class="form-control" type="file" id="formFile" name="Photo" accept="image/gif, image/jpeg, image/png">
+                <br />
+                <img id="img" class="img-thumbnail" />
             </div>
             <button id="buttonSubmit" class="btn btn-primary">Submit</button>
         </form>
 
-        <div id="div1" class="alert alert-secondary mt-3"></div><img src="c:\ajax\msit147site-main\ajaxhomework\wwwroot\uploads" />
+        <div id="div1" class="alert alert-secondary mt-3"></div>
     </div>
     <div class="col-3"></div>
 </div>
@@ -40,28 +42,47 @@
         const btnSubmit = document.querySelector('#buttonSubmit');
         const page = document.querySelector('#linkPage');
         const divAlert = document.querySelector('#div1');
-        btnSubmit.addEventListener('click', event => {
+
+        btnSubmit.addEventListener('click', async(event) => {
             event.preventDefault();
-
             const formData = new FormData(document.registerForm);
-            const xhr = new XMLHttpRequest();
-            xhr.open('POST', '/api/register');
-            //xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-            //xhr.send('Name=Mary&Age=30&Email=Mary@company.com');
-            xhr.send(formData);
-
-            xhr.addEventListener('load', () => {
-                const data = xhr.responseText;
-                divAlert.innerHTML = data;
-            })
-
+            const response = await fetch('@Url.Content("~/api/register")', {
+                body: formData,
+                method: 'POST'
+            });
+            const data = await response.text();
+            divAlert.innerHTML = data;
         })
+
+
         page.addEventListener('click', event => {
             if (!window.confirm("真的要去??")) {
                 event.preventDefault();
                 console.log('page');
             }
         })
+        //btnSubmit.addEventListener('click', event => {
+        //    event.preventDefault();
+
+        //    const formData = new FormData(document.registerForm);
+        //    const xhr = new XMLHttpRequest();
+        //    xhr.open('POST', '/api/register');
+        //    //xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        //    //xhr.send('Name=Mary&Age=30&Email=Mary@company.com');
+        //    xhr.send(formData);
+
+        //    xhr.addEventListener('load', () => {
+        //        const data = xhr.responseText;
+        //        divAlert.innerHTML = data;
+        //    })
+
+        //})
+        //page.addEventListener('click', event => {
+        //    if (!window.confirm("真的要去??")) {
+        //        event.preventDefault();
+        //        console.log('page');
+        //    }
+        //})
     </script>
 }
 
