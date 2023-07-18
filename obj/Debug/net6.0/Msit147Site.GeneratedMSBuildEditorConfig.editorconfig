@@ -9,30 +9,30 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Msit147Site
 build_property.RootNamespace = Msit147Site
-build_property.ProjectDir = F:\ALL THINGS\ISPanTeam\AjaxHomework\
+build_property.ProjectDir = C:\Ajax\Msit147Site-main\AjaxHomework\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\ALL THINGS\ISPanTeam\AjaxHomework
+build_property.MSBuildProjectDirectory = C:\Ajax\Msit147Site-main\AjaxHomework
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/Address.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/Address.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRyZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/AjaxEvent.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/AjaxEvent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBamF4RXZlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/CheckAccount.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/CheckAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja0FjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/Fetch.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/Fetch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZXRjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/First.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/First.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXJzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -41,31 +41,30 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork1.cshtml]
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork2.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork3.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork4.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork5.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/HomeWork6.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/HomeWork6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV29yazYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/Index.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -74,11 +73,10 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxqUXVlcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/Privacy.cshtml]
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Home/Register.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -91,42 +89,41 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaGlwcGVyQ29yc0VtcHR5
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Ajax/Msit147Site-main/AjaxHomework/Views/Members/Create.cshtml]
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Members/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Members/Delete.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Members/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Members/Details.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Members/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Members/Edit.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Members/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Members/Index.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Members/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Shared/Error.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/_ViewImports.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/_ViewStart.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ALL THINGS/ISPanTeam/AjaxHomework/Views/Shared/_Layout.cshtml]
+[C:/Ajax/Msit147Site-main/AjaxHomework/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wh2g3fh0d6

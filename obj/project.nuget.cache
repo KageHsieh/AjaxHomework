@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZ7PjeU+xPAUYdC+i14MlLuvlgg0BuVPs5coiSArput6m4fi/iURyhNXr77K1vb+6d3GmuhTzVqmxu+oPZu28A==",
+  "dgSpecHash": "bFlKmPhyEeeP//t54RTVwIO1VnW7aLC4pfil1lFG0ppYPSNYevmdPFlehper/4sRqnBCljOU+z76m4h4/L41uw==",
   "success": true,
-  "projectFilePath": "F:\\ALL THINGS\\ISPanTeam\\AjaxHomework\\Msit147Site.csproj",
+  "projectFilePath": "C:\\Ajax\\Msit147Site-main\\AjaxHomework\\Msit147Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
